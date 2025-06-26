@@ -1,0 +1,245 @@
+body {
+  font-family: 'Orbitron', Arial, sans-serif;
+  background: linear-gradient(180deg, #0a0a23, #1b1b32);
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  background: linear-gradient(90deg, #00f7ff, #ff00ff);
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 247, 255, 0.7);
+}
+
+#header h1 {
+  font-size: 32px;
+  margin: 0;
+  text-shadow: 0 0 8px #00f7ff;
+}
+
+#header p {
+  font-size: 18px;
+  margin: 10px 0;
+  opacity: 0.9;
+}
+
+#filters {
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+#filters h3 {
+  font-size: 22px;
+  margin: 0 0 10px 0;
+  width: 100%;
+  text-align: center;
+  color: #00f7ff;
+}
+
+#filters label {
+  font-size: 16px;
+  color: #00f7ff;
+  margin-right: 10px;
+}
+
+#filters select, #filters input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  background: #1b1b32;
+  color: #ffffff;
+  border: 2px solid #00f7ff;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#filters select:focus, #filters input:focus {
+  outline: none;
+  border-color: #ff00ff;
+  box-shadow: 0 0 8px #ff00ff;
+}
+
+#filters button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: linear-gradient(90deg, #00f7ff, #ff00ff);
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Orbitron', Arial, sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+#filters button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #00f7ff;
+  background: linear-gradient(90deg, #ff00ff, #00f7ff);
+}
+
+#jobs {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#nojobs {
+  text-align: center;
+  font-size: 18px;
+  color: #ff4040;
+  text-shadow: 0 0 8px #ff4040;
+  margin: 20px;
+}
+
+.job-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #00f7ff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 247, 255, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 300px;
+  max-width: 100%;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 247, 255, 0.7);
+}
+
+.job-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.job-card h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #00f7ff;
+  text-shadow: 0 0 5px #00f7ff;
+}
+
+.job-card p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #e0e0e0;
+}
+
+.job-card a {
+  display: inline-block;
+  color: #ff00ff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: text-shadow 0.3s;
+}
+
+.job-card a:hover {
+  text-shadow: 0 0 8px #ff00ff;
+}
+
+#load-more-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #00f7ff, #ff00ff);
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Orbitron', Arial, sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+#load-more-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #00f7ff;
+  background: linear-gradient(90deg, #ff00ff, #00f7ff);
+}
+
+#Footer {
+  background: linear-gradient(90deg, #00f7ff, #ff00ff);
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 247, 255, 0.7);
+  margin-top: auto;
+}
+
+#Footer a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Footer a:hover {
+  text-shadow: 0 0 8px #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #filters select, #filters input, #filters button {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  #header h1 {
+    font-size: 24px;
+  }
+
+  #header p {
+    font-size: 16px;
+  }
+
+  .job-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #filters {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  #jobs {
+    margin: 10px;
+  }
+
+  .job-card {
+    padding: 15px;
+  }
+
+  .job-card h2 {
+    font-size: 18px;
+  }
+
+  .job-card p {
+    font-size: 13px;
+  }
+}

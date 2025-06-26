@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "jobTitle": "Junior Web Developer",
+      "companyName": "WebCo",
+      "companyLogo": "https://via.placeholder.com/50",
+      "jobGeo": "Remote (USA)",
+      "jobType": "Full-time",
+      "jobIndustry": "Development",
+      "jobExcerpt": "Build websites with HTML and CSS.",
+      "url": "https://example.com/apply1"
+    },
+    {
+      "id": 2,
+      "jobTitle": "Marketing Assistant",
+      "companyName": "GrowEasy",
+      "companyLogo": "https://via.placeholder.com/50",
+      "jobGeo": "Remote (Europe)",
+      "jobType": "Part-time",
+      "jobIndustry": "Marketing",
+      "jobExcerpt": "Help with social media campaigns.",
+      "url": "https://example.com/apply2"
+    }
+  ]
+}
