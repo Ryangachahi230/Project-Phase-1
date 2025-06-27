@@ -1,26 +1,29 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "jobTitle": "Junior Web Developer",
       "companyName": "WebCo",
-      "companyLogo": "https://via.placeholder.com/50",
+      "companyLogo": " https://cdn.brandfetch.io/idzCQv_d8O/w/2048/h/2048/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1746577474265",
       "jobGeo": "Remote (USA)",
       "jobType": "Full-time",
       "jobIndustry": "Development",
       "jobExcerpt": "Build websites with HTML and CSS.",
-      "url": "https://example.com/apply1"
+      "url": "https://webcotube.wd12.myworkdayjobs.com/en-US/Webco/details/Fabrication-Tech-I-TX_JR312?workerSubType=d0fa73fbb5531007e6aeca95a6c20000"
     },
     {
-      "id": 2,
+      "id": "2",
       "jobTitle": "Marketing Assistant",
       "companyName": "GrowEasy",
-      "companyLogo": "https://via.placeholder.com/50",
+      "companyLogo": "https://images-platform.99static.com/ByYK06-ZGSUKwDTSYOb3xP4a0Uc=/99designs-contests-attachments/129/129238/attachment_129238400",
       "jobGeo": "Remote (Europe)",
       "jobType": "Part-time",
       "jobIndustry": "Marketing",
       "jobExcerpt": "Help with social media campaigns.",
-      "url": "https://example.com/apply2"
+      "url": ""
+    },
+    {
+      
     }
   ]
 }
